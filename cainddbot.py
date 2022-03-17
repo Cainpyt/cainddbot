@@ -5,7 +5,7 @@ translator = Translator()
 class Bot(commands.Bot):
 
     def __init__(self):
-        super().__init__(token='91l7p7tn2pg6r1vczyugbc304baw5t', prefix='!', initial_channels=['caindd'])
+        super().__init__(token='91l7p7tn2pg6r1vczyugbc304baw5t', prefix='!', initial_channels=['caindd', 'dj_teo', 'thesushidragon'])
 
     async def event_ready(self):
         # Notify us when everything is ready!
